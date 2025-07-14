@@ -19,11 +19,11 @@ const hints = [
 ];
 
 const LocationPicker = ({ onLocationSelect }: { onLocationSelect: (lat: number, lng: number) => void }) => {
-  const map = useMapEvents({
-    click(e: LeafletMouseEvent) {
-      onLocationSelect(e.latlng.lat, e.latlng.lng);
-    },
-  });
+  // const map = useMapEvents({
+  //   click(e: LeafletMouseEvent) {
+  //     onLocationSelect(e.latlng.lat, e.latlng.lng);
+  //   },
+  // });
   return null;
 };
 
